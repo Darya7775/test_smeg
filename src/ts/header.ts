@@ -28,7 +28,6 @@ export const handlerClickOfBurger = () => {
 };
 
 const handlerScroll = () => {
-  console.log(window.scrollY)
   if(window.scrollY >= 100) {
     nav && (nav.style.position = 'fixed');
     nav && (nav.style.top = '0');
