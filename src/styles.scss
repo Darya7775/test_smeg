@@ -1,0 +1,20 @@
+// Global
+// ---------------------------------
+
+@import "scss/variables";
+@import "scss/mixins";
+@import "scss/global";
+@import "scss/container";
+
+// Blocks
+// ---------------------------------
+
+@import "scss/blocks/header";
+@import "scss/blocks/nav";
+@import "scss/blocks/card";
+@import "scss/blocks/footer";
+@import "scss/blocks/title";
+@import "scss/blocks/catalog";
+@import "scss/blocks/benefits";
+@import "scss/blocks/category";
+@import "scss/blocks/payment";

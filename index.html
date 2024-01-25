@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Author: D.I. Stolyarova">
+    <link rel="stylesheet" href="/src/styles.scss">
+    <title>test smeg</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1 class="title">Smeg официальный магазин в России</h1>
+      <header class="header">
+        <div class="container header__container">
+          <div class="header__wrapper">
+            <div class="header__wrapper-text">
+              Пн – Пт- с 10:00 до 18:00 Вс - выходной<br>
+              <span>Рабочая суббота 27 января (предварительная запись)</span>
+            </div>
+            <a class="header__logo" href="/">
+              <picture>
+                <source type="image/avif" srcset="/logo_black.avif">
+                <source type="image/webp" srcset="/logo_black.webp">
+                <img src="/logo_black.png" alt="логотип" width="171" height="38">
+              </picture>
+              <span class="header__logo-text">официальный магазин<br>Smeg в России</span>
+            </a>
+            <div class="header__wrapper-tel">
+              <a class="header__tel" href="tel:88007070029">8 800 707-00-29</a>
+              <button class="header__button-call" type="button">Заказать звонок</button>
+            </div>
+            <div class="header__wrapper-login">
+              <a class="header__login" href="#">Вход</a>
+              <a class="header__login" href="#">Регистрация</a>
+            </div>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Бытовая техника</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Малая техника для кухни</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Посуда</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">La Pavoni</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">HORECA</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">SMEG Outlet</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Акции</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Магазины</a>
+              </li>
+            </ul>
+            <div class="nav__wrapper">
+              <button class="nav__button nav__button--search" type="button" aria-label="поиск по сайту"></button>
+              <button class="nav__button nav__button--basket" type="button" aria-label="корзина"></button>
+            </div>
+          </nav>
+          <button class="header__burger" type="button" aria-label="меню" data-state=""><span></span>
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="benefits">
+          <h2>Преимущества</h2>
+          <picture>
+            <source type="image/avif" srcset="/back_offer.avif">
+            <source type="image/webp" srcset="/back_offer.webp">
+            <img src="/back_offer.jpg" alt="фон" width="1920" height="520">
+          </picture>
+          <div class="container benefits__container">
+            <p>Покупая технику премиум-класса SMEG в официальном интернет-магазине, Вы получаете:</p>
+            <ul class="benefits__list">
+              <li class="benefits__item">
+                <p>общение с Производителем без посредников;</p>
+              </li>
+              <li class="benefits__item">
+                <p>возможность выбора из линейки самых последних моделей;</p>
+              </li>
+              <li class="benefits__item">
+                <p>индивидуальный подход;</p>
+              </li>
+              <li class="benefits__item">
+                <p>профессиональную консультацию;</p>
+              </li>
+              <li class="benefits__item">
+                <p>возможность посмотреть товар перед покупкой;</p>
+              </li>
+              <li class="benefits__item">
+                <p>выбор наиболее удобных и надежных способов оплаты;</p>
+              </li>
+              <li class="benefits__item">
+                <p>возможность покупки по предзаказу с соблюдением сроков поставки;</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="catalog">
+          <div class="container catalog__container">
+            <h2>Техника премиум-класса SMEG</h2>
+            <ul class="catalog__list">
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_ovens.avif">
+                      <source type="image/webp" srcset="/catalog/category_ovens.webp">
+                      <img class="catalog__img" src="/catalog/category_ovens.jpg" alt="духовые шкафы" width="700" height="503">
+                    </picture>
+                  </div>
+                  <h3>Духовые шкафы</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_panel.avif">
+                      <source type="image/webp" srcset="/catalog/category_panel.webp">
+                      <img class="catalog__img" src="/catalog/category_panel.jpg" alt="Варочные панели"  width="953" height="427">
+                    </picture>
+                  </div>
+                  <h3>Варочные панели</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_center.avif">
+                      <source type="image/webp" srcset="/catalog/category_center.webp">
+                      <img class="catalog__img" src="/catalog/category_center.jpg" alt="Варочные центры" width="700" height="524">
+                    </picture>
+                  </div>
+                  <h3>Варочные центры</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_hob.avif">
+                      <source type="image/webp" srcset="/catalog/category_hob.webp">
+                      <img class="catalog__img" src="/catalog/category_hob.jpg" alt="Вытяжки" width="2917" height="1896">
+                    </picture>
+                  </div>
+                  <h3>Вытяжки</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_wash.avif">
+                      <source type="image/webp" srcset="/catalog/category_wash.webp">
+                      <img class="catalog__img" src="/catalog/category_wash.jpg" alt="Мойки" width="3300" height="2100">
+                    </picture>
+                  </div>
+                  <h3>Мойки</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_sinks.avif">
+                      <source type="image/webp" srcset="/catalog/category_sinks.webp">
+                      <img class="catalog__img" src="/catalog/category_sinks.jpg" alt="Смесители" width="2917" height="1817">
+                    </picture>
+                  </div>
+                  <h3>Смесители</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_washer.avif">
+                      <source type="image/webp" srcset="/catalog/category_washer.webp">
+                      <img class="catalog__img" src="/catalog/category_washer.jpg" alt="Посудомоечные машины" width="700" height="576">
+                    </picture>
+                  </div>
+                  <h3>Посудомоечные машины</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_washer2.avif">
+                      <source type="image/webp" srcset="/catalog/category_washer2.webp">
+                      <img class="catalog__img" src="/catalog/category_washer2.jpg" alt="Стиральные машины" width="700" height="450">
+                    </picture>
+                  </div>
+                  <h3>Стиральные машины</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_fridge.avif">
+                      <source type="image/webp" srcset="/catalog/category_fridge.webp">
+                      <img class="catalog__img" src="/catalog/category_fridge.jpg" alt="Холодильники" width="700" height="580">
+                    </picture>
+                  </div>
+                  <h3>Холодильники</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_wine.avif">
+                      <source type="image/webp" srcset="/catalog/category_wine.webp">
+                      <img class="catalog__img" src="/catalog/category_wine.jpg" alt="Винные шкафы" width="700" height="532">
+                    </picture>
+                  </div>
+                  <h3>Винные шкафы</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_coffee.avif">
+                      <source type="image/webp" srcset="/catalog/category_coffee.webp">
+                      <img class="catalog__img" src="/catalog/category_coffee.jpg" alt="Кофемашины" width="700" height="534">
+                    </picture>
+                  </div>
+                  <h3>Кофемашины</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_mixer.avif">
+                      <source type="image/webp" srcset="/catalog/category_mixer.webp">
+                      <img class="catalog__img" src="/catalog/category_mixer.jpg" alt="Миксеры" width="700" height="525">
+                    </picture>
+                  </div>
+                  <h3>Миксеры</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_blender.avif">
+                      <source type="image/webp" srcset="/catalog/category_blender.webp">
+                      <img class="catalog__img" src="/catalog/category_blender.jpg" alt="Блендеры" width="700" height="439">
+                    </picture>
+                  </div>
+                  <h3>Блендеры</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_kettle.avif">
+                      <source type="image/webp" srcset="/catalog/category_kettle.webp">
+                      <img class="catalog__img" src="/catalog/category_kettle.jpg" alt="Чайники" width="700" height="557">
+                    </picture>
+                  </div>
+                  <h3>Чайники</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_toaster.avif">
+                      <source type="image/webp" srcset="/catalog/category_toaster.webp">
+                      <img class="catalog__img" src="/catalog/category_toaster.jpg" alt="Тостеры" width="700" height="557">
+                    </picture>
+                  </div>
+                  <h3>Тостеры</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">
+                  <div class="catalog__wrapper-img">
+                    <picture>
+                      <source type="image/avif" srcset="/catalog/category_accessories.avif">
+                      <source type="image/webp" srcset="/catalog/category_accessories.webp">
+                      <img class="catalog__img" src="/catalog/category_accessories.jpg" alt="Аксессуары" width="2000" height="2000">
+                    </picture>
+                  </div>
+                  <h3>Аксессуары</h3>
+                  <span class="catalog__span">Посмотреть</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="category">
+          <div class="container category__container">
+            <div class="category__wrapper">
+              <h2>Для дома</h2>
+              <p>Решая, какую технику выбрать для кухни, обязательно ознакомьтесь с&nbsp;ассортиментом SMEG. В&nbsp;нашем интернет- магазине&nbsp;Вы сможете найти полный модельный ряд приборов, представленных на&nbsp;российском рынке.</p>
+              <picture>
+                <source type="image/avif" srcset="/block2-for-home.avif">
+                <source type="image/webp" srcset="/block2-for-home.webp">
+                <img src="/block2-for-home.jpg" alt="техника для дома" width="525" height="323">
+              </picture>
+            </div>
+            <div class="category__wrapper">
+              <h2>Для бизнеса</h2>
+              <p>В&nbsp;каталоге представлено профессиональное оборудование для сегмента HoReCa. Наши специалисты учтут все пожелания и&nbsp;подберут оптимальные приборы, которые станут одним из&nbsp;слагаемых успеха Вашего бизнеса.</p>
+              <picture>
+                <source type="image/avif" srcset="/block2-for-business.avif">
+                <source type="image/webp" srcset="/block2-for-business.webp">
+                <img src="/block2-for-business.jpg" alt="техника для дома" width="525" height="323">
+              </picture>
+            </div>
+          </div>
+        </section>
+        <section class="payment">
+          <div class="container payment__container">
+            <h2>Оплата</h2>
+            <picture>
+              <source type="image/avif" srcset="/payment.avif">
+              <source type="image/webp" srcset="/payment.webp">
+              <img src="/payment.jpg" alt="платежные системы" width="310" height="175">
+            </picture>
+          </div>
+        </section>
+        <section class="card">
+          <h2>Карта</h2>
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae6f084170939fb532094afba63979b0bc3f94e120d280079f33e879d18164e9d&amp;source=constructor" width="1000" height="400" title="карта с метками магазинов"></iframe>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container footer__container">
+          <a class="footer__logo" href="/">
+            <picture>
+              <source type="image/avif" srcset="/logo_black.avif">
+              <source type="image/webp" srcset="/logo_black.webp">
+              <img src="/logo_black.png" alt="логотип" width="171" height="38">
+            </picture>
+            <span class="footer__logo-text">официальный магазин<br>Smeg в России</span>
+          </a>
+          <div class="footer__wrapper footer__wrapper--left">
+            <h2>Меню</h2>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Бытовая техника</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Малая техника для кухни</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Посуда</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">La Pavoni</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">HORECA</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">SMEG Outlet</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Акции</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Магазины</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper footer__wrapper--right">
+            <h2>О нас</h2>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">О компании Smeg</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Коллекции</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Доставка и оплата</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Уголок потребителя</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Сервис</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Дизайнерам</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Проектный бизнес</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Программа лояльности</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/ts/main.ts"></script>
+  </body>
+</html>

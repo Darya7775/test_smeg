@@ -1,0 +1,16 @@
+.card {
+  margin-top: 50px;
+
+  h2 {
+    @include hidden;
+  }
+
+  iframe {
+    width: 100%;
+    border: none;
+
+    @media (max-width: (47.97em - 0.06em)) {
+      height: 300px;
+    }
+  }
+}
