@@ -1,14 +1,16 @@
 {
   "name": "test_smeg",
-  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "author": "Stolyarova Darya",
+  "homepage": "https://darya7775.github.io/test_smeg",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.70.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
